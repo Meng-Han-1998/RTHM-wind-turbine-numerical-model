@@ -106,3 +106,21 @@ The repository typically contains the following components:
 │   └── IEA-15MW/           # IEA 15 MW simulation case
 ├── docs/                   # Additional documentation
 └── README.md
+
+---
+
+## Further Technical Details
+
+More technical details on the coupled numerical framework, dynamic characteristics, parameter analysis, and the real-time hybrid model testing methodology can be found in the following publications:
+
+1. **Han, M., Shi, H., Cao, F., et al.**  
+   *Dynamic characteristics and parameter analysis of a floating hybrid wind-wave energy system based on a novel coupled numerical framework*.  
+   **Energy Conversion and Management**, 312 (2024), 118558.  
+   DOI: [10.1016/j.enconman.2024.118558](https://doi.org/10.1016/j.enconman.2024.118558)
+
+2. **Han, M., Cao, F., Shi, H., Li, M., Chen, L., Chen, Z., Han, Y., Chen, P., Liu, B.**  
+   *Real-time hybrid model experimental and numerical study of a novel 15 MW semi-submersible wind turbine*.  
+   **Energy Conversion and Management**, 346 (2025), 120463.  
+   DOI: [10.1016/j.enconman.2025.120463](https://doi.org/10.1016/j.enconman.2025.120463)
+
+These papers provide additional background on the modeling strategy, coupled simulation framework, hydrodynamic and aerodynamic response analysis, and the experimental/numerical validation associated with the present repository.
