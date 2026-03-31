@@ -92,22 +92,6 @@ The repository typically contains the following components:
 - **IEA 15 MW simulation case**  
   A reference case for validating and demonstrating the DLL-based workflow.
 
-> Please adapt the directory names below to match the actual structure of your repository.
-
-```text
-.
-├── src/                    # Modified OpenFAST source code
-├── include/                # Header files for exported interfaces
-├── build/                  # Build output directory
-├── dll/                    # Generated DLL and related files
-├── examples/
-│   └── python/             # Python calling example
-├── cases/
-│   └── IEA-15MW/           # IEA 15 MW simulation case
-├── docs/                   # Additional documentation
-└── README.md
-
----
 
 ## Further Technical Details
 
