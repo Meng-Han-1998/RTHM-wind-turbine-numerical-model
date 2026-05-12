@@ -1,0 +1,15 @@
+﻿  data.c
+  gen_c_types.c
+  gen_module_files.c
+  misc.c
+  my_strtok.c
+  registry.c
+  reg_parse.c
+  sym.c
+  symtab_gen.c
+  type.c
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 75 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  FAST_Registry.vcxproj -> D:\WEC_simulation_460\openfast-main\openfast-3.5.0\openfast-3.5.0-0821-external-dll-1013-timestep-revised-succeed-damping_python\build\bin\Registry.exe

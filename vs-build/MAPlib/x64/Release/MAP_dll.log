@@ -1,0 +1,11 @@
+﻿  freedata.c
+  jacobian.c
+  lineroutines.c
+  mapapi.c
+D:\WEC_simulation_460\openfast-main\openfast-3.5.0\openfast-3.5.0-0821-external-dll-1013-timestep-revised-succeed-damping_python\modules\map\src\mapapi.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  maperror.c
+  mapinit.c
+  numeric.c
+  outputstream.c
+  residual.c
+  MAP_dll.vcxproj -> D:\WEC_simulation_460\openfast-main\openfast-3.5.0\openfast-3.5.0-0821-external-dll-1013-timestep-revised-succeed-damping_python\build\bin\MAP_x64.lib

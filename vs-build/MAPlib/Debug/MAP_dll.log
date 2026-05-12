@@ -1,0 +1,56 @@
+﻿  Performing Custom Build Tools
+  ======================================================================
+  
+  ----- FAST Registry --------------
+  ----------------------------------------------------------
+  input file: ..\..\modules\map\src\MAP_Registry.txt
+  opening ..\..\modules\nwtc-library\src/Registry_NWTC_Library.txt 
+  opening ..\..\modules\map\src/MAP_Fortran_Registry.txt in usefrom mode
+  opening ..\..\modules\nwtc-library\src/Registry_NWTC_Library.txt in usefrom mode
+  generating ..\..\modules\map\src/MAP_Types.f90
+CUSTOMBUILD : Registry warning : derived data type LinInitInp of type lin_initinputtype is not passed through C interface
+CUSTOMBUILD : Registry warning : derived data type LinInitInp of type lin_initinputtype is not passed through F-C interface
+CUSTOMBUILD : Registry warning : derived data type Ver of type progdesc is not passed through C interface
+CUSTOMBUILD : Registry warning : derived data type LinInitOut of type lin_initoutputtype is not passed through C interface
+CUSTOMBUILD : Registry warning : derived data type Ver of type progdesc is not passed through F-C interface
+CUSTOMBUILD : Registry warning : derived data type LinInitOut of type lin_initoutputtype is not passed through F-C interface
+CUSTOMBUILD : Registry warning : derived data type LinParams of type lin_paramtype is not passed through C interface
+CUSTOMBUILD : Registry warning : derived data type LinParams of type lin_paramtype is not passed through F-C interface
+CUSTOMBUILD : Registry warning : derived data type PtFairDisplacement of type meshtype is not passed through C interface
+CUSTOMBUILD : Registry warning : derived data type PtFairDisplacement of type meshtype is not passed through F-C interface
+CUSTOMBUILD : Registry warning : derived data type ptFairleadLoad of type meshtype is not passed through C interface
+CUSTOMBUILD : Registry warning : derived data type ptFairleadLoad of type meshtype is not passed through F-C interface
+  generating ..\..\modules\map\src/MAP_Types.h
+  
+  ----- FAST Registry --------------
+  ----------------------------------------------------------
+  input file: ..\..\modules\map\src\MAP_Fortran_Registry.txt
+  opening ..\..\modules\nwtc-library\src/Registry_NWTC_Library.txt 
+  generating ..\..\modules\map\src/MAP_Fortran_Types.f90
+  
+  Registry for MAP completed.
+   
+  ======================================================================
+  bstraux.c
+  bstrlib.c
+  dpmpar.c
+  enorm.c
+  enorm_u.c
+  lmder.c
+  lmpar.c
+  qrfac.c
+  qrsolv.c
+  freedata.c
+  jacobian.c
+  lineroutines.c
+  mapapi.c
+D:\WEC_simulation\openfast-main\openfast-3.5.0\openfast-3.5.0-0821-external-dll-0916-timestep-revised-single-coupling\modules\map\src\mapapi.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  maperror.c
+  mapinit.c
+  numeric.c
+  outputstream.c
+  residual.c
+  simclist.c
+  正在生成代码...
+  lmroutines.cc
+  MAP_dll.vcxproj -> D:\WEC_simulation\openfast-main\openfast-3.5.0\openfast-3.5.0-0821-external-dll-0916-timestep-revised-single-coupling\build\bin\MAP_Win32.lib
